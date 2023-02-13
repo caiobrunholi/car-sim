@@ -1,0 +1,32 @@
+# CB
+# Version without GPU
+
+# To solve the error:
+    # Traceback (most recent call last):
+    #   File "<string>", line 1, in <module>
+    #   File "/tmp/pip-build-ti9bsaoi/opencv-python/setup.py", line 9, in <module>
+    #     import skbuild
+    # ImportError: No module named 'skbuild'
+# scikit-build
+
+# The ones I don't know the versions to:
+numpy>=1.9.2
+matplotlib>=1.4.3
+jupyter
+opencv-python
+pillow>=2.9.0
+scikit-learn>=0.18
+scikit-image==0.13
+scipy>=0.15.1
+h5py>=2.0
+eventlet>=0.14
+flask-socketio>=1.0
+seaborn>=0.6
+pandas>=0.19
+imageio>=2.0
+moviepy>=0.1.5
+
+# The ones I know the versions:
+tensorflow==1.1
+keras==1.2
+
